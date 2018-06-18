@@ -1,0 +1,106 @@
+<div class='corrMtx_wrap'>
+	<style scoped>
+		.corrMtx_wrap {
+			width: 420px;
+		}
+		.corrTable {
+			border-collapse: collapse;
+			font-size: 30.912px;
+		}
+		.header {
+			font-weight: bold;
+			font-family: monospace;
+			text-align: center;
+		}
+		.index {
+			display: inline-block;
+			transform: rotate(270deg);
+			font-weight: bold;
+			font-family: monospace;
+			text-align: center;
+		}
+		td {
+			padding: 3.36px;
+			text-align: center;
+			vertical-align: middle;
+		}
+		.circle {
+			width: 77.28px;
+			height: 77.28px;
+			border-radius: 38.64px;
+			line-height: 77.28px;
+			text-align: center;
+		}
+		.labels {
+			width: 77.28px;
+			height: 77.28px;
+			border-radius: 6px;
+			background-color: #bfbfbf;
+			line-height: 77.28px;
+			text-align: center;
+		}
+		.legend {
+			border-collapse: collapse;
+			margin: auto;
+			font-family: monospace;
+			font-size: 10.20096px;
+			text-align: center;
+		}
+		.legend_td {
+			width: 42.0px;
+			padding: 0px;
+			line-height: 51.0048px;
+			color: #fff;
+		}
+	</style>
+	<table class='corrTable'>
+		<tr>
+			<td></td>
+			<td><div class='labels'><span class='header'>A</span></div></td>
+			<td><div class='labels'><span class='header'>B</span></div></td>
+			<td><div class='labels'><span class='header'>C</span></div></td>
+			<td><div class='labels'><span class='header'>D</span></div></td>
+		</tr>
+		<tr>
+			<td><div class='labels'><span class='index'>A</span></div></td>
+			<td><div class='circle' style='background-color: #405DBA'></div></td>
+			<td><div class='circle' style='background-color: #7E8DBB'></div></td>
+			<td><div class='circle' style='background-color: #BA615F'></div></td>
+			<td><div class='circle' style='background-color: #BDBDBD'></div></td>
+		</tr>
+		<tr>
+			<td><div class='labels'><span class='index'>B</span></div></td>
+			<td><div class='circle' style='background-color: #7E8DBB'></div></td>
+			<td><div class='circle' style='background-color: #405DBA'></div></td>
+			<td><div class='circle' style='background-color: #BA615F'></div></td>
+			<td><div class='circle' style='background-color: #BDBDBD'></div></td>
+		</tr>
+		<tr>
+			<td><div class='labels'><span class='index'>C</span></div></td>
+			<td><div class='circle' style='background-color: #BA615F'></div></td>
+			<td><div class='circle' style='background-color: #BA615F'></div></td>
+			<td><div class='circle' style='background-color: #405DBA'></div></td>
+			<td><div class='circle' style='background-color: #BC9E9D'></div></td>
+		</tr>
+		<tr>
+			<td><div class='labels'><span class='index'>D</span></div></td>
+			<td><div class='circle' style='background-color: #BDBDBD'></div></td>
+			<td><div class='circle' style='background-color: #BDBDBD'></div></td>
+			<td><div class='circle' style='background-color: #BC9E9D'></div></td>
+			<td><div class='circle' style='background-color: #405DBA'></div></td>
+		</tr>
+	</table><br>
+	<table class='legend'>
+		<tr>
+			<td class='legend_td' style='background-color: #BA4340'>-1</td>
+			<td class='legend_td' style='background-color: #BA615F'>-0.7</td>
+			<td class='legend_td' style='background-color: #BB807E'>-0.5</td>
+			<td class='legend_td' style='background-color: #BC9E9D'>-0.3</td>
+			<td class='legend_td' style='background-color: #BDBDBD'>0</td>
+			<td class='legend_td' style='background-color: #9DA5BC'>0.3</td>
+			<td class='legend_td' style='background-color: #7E8DBB'>0.5</td>
+			<td class='legend_td' style='background-color: #5F75BA'>0.7</td>
+			<td class='legend_td' style='background-color: #405DBA'>1</td>
+		</tr>
+	</table>
+</div>
