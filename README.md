@@ -14,4 +14,4 @@ The correlation coefficients used in the example:
 	['D',	0.009802,	0.011852,	-0.303228,	1.000000]
 
 ## Output
-An HTML <div> block that contains a <style> and two <table>'s blocks.
+An HTML div block that contains a style and two tables blocks.
